@@ -1,0 +1,23 @@
+.evento {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+  }
+  .local-card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .navbar-custom {
+    background-color: #ffffff;
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav-link {
+    color: #000;
+  }
+
+  .navbar-custom .nav-link:hover {
+    color: #0056b3; 
+  }

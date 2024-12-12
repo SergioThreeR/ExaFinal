@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante Delicioso</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="CSS/index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-custom">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="img/log.png" alt="Logo del Restaurante">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="index.html">
+              <i class="fas fa-home"></i> Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menu.html">
+              <i class="fas fa-utensils"></i> Menú
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">
+              <i class="fas fa-users"></i> Nosotros
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="sostenibilidad.html">
+              <i class="fas fa-leaf"></i> Sostenibilidad
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">
+              <i class="fas fa-envelope"></i> Contacto
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/c3.jpg" class="d-block w-100" alt="Platillo 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Deliciosos platillos</h5>
+          <p>Descubre nuestros mejores sabores.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/c1.jpg" class="d-block w-100" alt="Ambiente">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ambiente acogedor</h5>
+          <p>El lugar perfecto para tus reuniones.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/c2.jpg" class="d-block w-100" alt="Evento">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Eventos especiales</h5>
+          <p>Vive momentos inolvidables con nosotros.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+  <section id="video" class="py-5 text-center">
+    <div class="container">
+      <h2>¡Conoce nuestro local en Miraflores!</h2>
+      <div class="ratio ratio-16x9">
+    
+        <iframe 
+          src="https://www.youtube.com/embed/JUroTZFFTYE?si=B6dd693OdUNYRJ7x" 
+          title="Video Restaurante" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </section>
+  
+  
+
+  <section id="locales" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Nuestros Locales</h2>
+      <p class="text-center">Visítanos en cualquiera de nuestras ubicaciones:</p>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card local-card">
+            <img src="img/mi.jpg" class="card-img-top" alt="Local 1">
+            <div class="card-body">
+              <h5 class="card-title">Sucursal Miraflores</h5>
+              <p class="card-text">Av. Larco 123, Miraflores, Lima</p>
+              <p class="card-text"><strong>Teléfono:</strong> (01) 123-4567</p>
+              <p class="card-text"><strong>Horario:</strong> 12:00 PM - 10:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card local-card">
+            <img src="img/san.jpg" class="card-img-top" alt="Local 2">
+            <div class="card-body">
+              <h5 class="card-title">Sucursal San Isidro</h5>
+              <p class="card-text">Calle Los Pinos 456, San Isidro, Lima</p>
+              <p class="card-text"><strong>Teléfono:</strong> (01) 765-4321</p>
+              <p class="card-text"><strong>Horario:</strong> 1:00 PM - 11:00 PM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card local-card">
+            <img src="img/barra.jpg" class="card-img-top" alt="Local 3">
+            <div class="card-body">
+              <h5 class="card-title">Sucursal Barranco</h5>
+              <p class="card-text">Plaza de Barranco 789, Barranco, Lima</p>
+              <p class="card-text"><strong>Teléfono:</strong> (01) 987-6543</p>
+              <p class="card-text"><strong>Horario:</strong> 11:00 AM - 9:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="reservaciones" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center">Haz tu reservación</h2>
+      <p class="text-center">Reserva una mesa fácilmente y asegura tu lugar en nuestro restaurante.</p>
+      <form>
+        <div class="row g-3">
+          <div class="col-md-6">
+            <label for="nombre" class="form-label">Nombre Completo</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
+          </div>
+          <div class="col-md-6">
+            <label for="correo" class="form-label">Correo Electrónico</label>
+            <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo" required>
+          </div>
+        </div>
+        <div class="row g-3 mt-3">
+          <div class="col-md-6">
+            <label for="fecha" class="form-label">Fecha</label>
+            <input type="date" class="form-control" id="fecha" required>
+          </div>
+          <div class="col-md-6">
+            <label for="hora" class="form-label">Hora</label>
+            <input type="time" class="form-control" id="hora" required>
+          </div>
+        </div>
+        <div class="row g-3 mt-3">
+          <div class="col-md-12">
+            <label for="personas" class="form-label">Número de Personas</label>
+            <input type="number" class="form-control" id="personas" placeholder="Cantidad de personas" required>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <button type="submit" class="btn btn-primary">Reservar</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  
+
+  <footer class="bg-dark text-white text-center py-4">
+    <p>&copy; 2024 Restaurante Delicioso. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
